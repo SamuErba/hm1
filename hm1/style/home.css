@@ -1,0 +1,140 @@
+header {
+    background-image: url(im1.jpg);
+    background-size: cover;
+    background-position: center; 
+    padding: 0px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+header nav {
+    position: absolute;
+    font-family: 'East Sea Dokdo', cursive;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+#strutture h1{
+  font-family: 'Caveat', cursive;
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+#lido img{
+  margin-left: 5px;
+  border: 2px solid black;
+}
+#details h1{
+  font-family: 'Caveat',cursive;
+  font-size: 35px;
+}
+#details p{
+  font-family: sans-serif;
+  font-size:20px;
+}
+#lido {
+  display: flex;
+}
+#piscina img{
+  
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 2px solid black;
+}
+#details2 h1{
+  font-family: 'Caveat',cursive;
+  font-size: 35px;
+}
+#details2 p{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#piscina{
+  display: flex;
+}
+section{
+  background-image: url(coverFinal.png);
+  background-size: cover;
+  background-position: center;
+  padding:0px;
+}
+
+#sec2 {
+  background-image: url(Covernews.png);
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+}
+#news{
+  display: flex;
+  height: 60px;
+}
+#news h1{
+  font-family: 'Caveat',cursive;
+  font-size: 35px;
+}
+#news img{
+  height: 60px;
+}
+#promozioni{
+  display: inline-flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+#promozioni h1{
+  font-family: 'Caveat',cursive;
+  font-size: 35px;
+  margin-top: -10px;
+}
+#promozioni img{
+  margin-top: -20px;
+  margin-left: 100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+#mess{
+  font-family: 'Caveat',cursive;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#final{
+  font-family: 'Caveat',cursive;
+  background-image: url(coverFinal.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+}
+
+#ref{
+  display: flex;
+  flex-direction:column;
+}
+#ref a{
+  margin-top: 20px;
+  font-size: 35px;
+}
+#social{
+  display: inline;
+}
+#social a{
+  margin-bottom: 30px;
+  font-size: 35px ;
+}
+#social img{
+  margin-top: -35px;
+}
+#final a{
+  display: flex;
+}

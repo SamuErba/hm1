@@ -1,0 +1,20 @@
+:root {
+    --background: #f4ede5;
+    --text: #8d7e7e; /* #7e838d; */
+    --hl_text: black;
+    --foreground: white;
+    --font: 'Nunito Sans', sans-serif;
+}
+body {
+    background: var(--background);
+    display: flex;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    margin: 0;
+    padding: 8px;
+}
+body, input, button, textarea {
+    font-family: var(--font);
+}
